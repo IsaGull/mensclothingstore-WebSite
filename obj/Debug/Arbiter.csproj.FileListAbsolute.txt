@@ -1,0 +1,10 @@
+c:\users\unaahí\documents\visual studio 2010\Projects\Arbiter\Arbiter\bin\Arbiter.dll
+c:\users\unaahí\documents\visual studio 2010\Projects\Arbiter\Arbiter\bin\Arbiter.pdb
+c:\users\unaahí\documents\visual studio 2010\Projects\Arbiter\Arbiter\obj\Debug\Arbiter.dll
+c:\users\unaahí\documents\visual studio 2010\Projects\Arbiter\Arbiter\obj\Debug\Arbiter.pdb
+C:\Users\UnaAhí\Documents\Visual Studio 2010\Projects\Arbiter\Arbiter\obj\Debug\Arbiter.csprojResolveAssemblyReference.cache
+C:\Users\Isabel\Desktop\Arbiter\Arbiter\Arbiter\bin\Arbiter.dll
+C:\Users\Isabel\Desktop\Arbiter\Arbiter\Arbiter\bin\Arbiter.pdb
+C:\Users\Isabel\Desktop\Arbiter\Arbiter\Arbiter\obj\Debug\Arbiter.dll
+C:\Users\Isabel\Desktop\Arbiter\Arbiter\Arbiter\obj\Debug\Arbiter.pdb
+C:\Users\Isabel\Desktop\Arbiter\Arbiter\Arbiter\obj\Debug\Arbiter.csprojResolveAssemblyReference.cache

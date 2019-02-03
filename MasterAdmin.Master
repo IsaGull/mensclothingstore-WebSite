@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterAdmin.master.cs" Inherits="Arbiter.MasterAdmin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="\fonts\fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <style type="text/css">
+        .style1
+        {
+            width: 9px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+<div id="header-wrapperN">
+	<div id="header" class="container">
+		<div id="logo">
+			<a href="\PaginaPrincipal.aspx" accesskey="4" title=""><h1>ARBITER</h1></a>
+		</div>
+		<div id="menu">
+			<ul>
+			<%--	<li><a href="#" accesskey="1" title="">Nosotros</a></li>
+				<li><a href="#" accesskey="2" title="">Contactenos</a></li>
+				<li><a href="#" accesskey="3" title="">Ubicacion</a></li>
+				<li><a href="#" accesskey="4" title="">Catálogo</a></li>--%>
+				<li><a href="\InicioAdmin.aspx" accesskey="5" title="">Administrativo</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<div id="page" class="container">
+<form id="form1" runat="server">
+<table>
+    <tr>
+        <td valign="top">
+           <asp:Menu ID="Menu1" runat="server">
+               <Items>
+                   <asp:MenuItem Selectable="False" ImageUrl="~/images/Botoncatalo.png">
+                       <asp:MenuItem ImageUrl="~/images/BotonAgregarPro.png"  NavigateUrl="..\ProductoAdd.aspx"></asp:MenuItem>
+                       <asp:MenuItem ImageUrl="~/images/BotonModificarPro.png" NavigateUrl="..\ProductoMod.aspx"></asp:MenuItem>
+                       <asp:MenuItem ImageUrl="~/images/BotonEliminarPro.png" NavigateUrl="..\ProductoDel.aspx"></asp:MenuItem>
+                       <%--<asp:MenuItem ImageUrl="~/images/BotonConsultarPro.png" NavigateUrl="javascript:window.open('Catalogo.aspx')"></asp:MenuItem>--%>                       
+                       <asp:MenuItem ImageUrl="~/images/BotonConsultarPro.png" NavigateUrl="..\Catalogo.aspx"></asp:MenuItem>
+                   </asp:MenuItem>
+                   <asp:MenuItem Selectable="False" ImageUrl="~/images/BotonVentas.png">
+                       <asp:MenuItem ImageUrl="~/images/BotonMasVendido.png" Selectable="False">
+                           <asp:MenuItem ImageUrl="~/images/BotonPrendas.png" NavigateUrl="..\VentasPre.aspx"></asp:MenuItem>
+                           <asp:MenuItem ImageUrl="~/images/BotonArticulos.png" NavigateUrl="..\VentasArt.aspx"></asp:MenuItem>
+                           <asp:MenuItem ImageUrl="~/images/BotonTallas.png" NavigateUrl="..\VentasTal.aspx"></asp:MenuItem>
+                       </asp:MenuItem>
+                       <asp:MenuItem ImageUrl="~/images/BotonClientes.png" Selectable="False">
+                           <asp:MenuItem ImageUrl="~/images/BotonMasFrecuente.png" NavigateUrl="..\ClientesFre.aspx"></asp:MenuItem>
+                           <asp:MenuItem ImageUrl="~/images/BotonMayorCompra.png" NavigateUrl="..\ClientesCom.aspx"></asp:MenuItem>
+                       </asp:MenuItem>
+                       <asp:MenuItem ImageUrl="~/images/BotonEmpleados.png" Selectable="False">
+                           <asp:MenuItem ImageUrl="~/images/BotonMayorVenta.png" NavigateUrl="..\EmpleadoVen.aspx"></asp:MenuItem>
+                           <asp:MenuItem ImageUrl="~/images/BotonTotalVentas.png" NavigateUrl="..\EmpleadoTol.aspx"></asp:MenuItem>
+                       </asp:MenuItem>
+                   </asp:MenuItem>
+
+                   <asp:MenuItem Selected="True" ImageUrl="~/images/BotonGanancias.png" NavigateUrl="..\Ganancias.aspx"></asp:MenuItem>
+               
+            </Items>
+            </asp:Menu>
+        </td>
+
+        <td width="70" >
+        
+        
+        </td>
+
+
+        <td  valign="top" align="center">
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </td>
+
+    </tr>
+  
+</table>   
+
+</form>
+
+</div>
+
+
+
+<div id="copyright" class="container">
+	<p>&copy; Derechos Reservados. | Fotos reservadas de la tienda | Creada por MascInc.</p>
+</div>
+
+
+</body>
+
+
+</html>

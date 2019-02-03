@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{325AD76F-F6CE-467F-8551-E17BD68AB85E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Arbiter</RootNamespace>
+    <AssemblyName>Arbiter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Accesorio.aspx" />
+    <Content Include="Camisa.aspx" />
+    <Content Include="Catalogo.aspx" />
+    <Content Include="ClientesCom.aspx" />
+    <Content Include="ClientesFre.aspx" />
+    <Content Include="Contactenos.aspx" />
+    <Content Include="Corbata.aspx" />
+    <Content Include="EmpleadoTol.aspx" />
+    <Content Include="EmpleadoVen.aspx" />
+    <Content Include="Esmoquin.aspx" />
+    <Content Include="Ganancias.aspx" />
+    <Content Include="images\a1.png" />
+    <Content Include="images\accesorio.jpg" />
+    <Content Include="images\BotonAgregarPro.png" />
+    <Content Include="images\BotonArticulos.png" />
+    <Content Include="images\Botoncatalo.png" />
+    <Content Include="images\BotonCatalogo.png" />
+    <Content Include="images\BotonClientes.png" />
+    <Content Include="images\BotonConsultarPro.png" />
+    <Content Include="images\BotonEliminarPro.png" />
+    <Content Include="images\BotonEmpleados.png" />
+    <Content Include="images\BotonGanancias.png" />
+    <Content Include="images\BotonMasFrecuente.png" />
+    <Content Include="images\BotonMasVendido.png" />
+    <Content Include="images\BotonMayorCompra.png" />
+    <Content Include="images\BotonMayorVenta.png" />
+    <Content Include="images\BotonModificarPro.png" />
+    <Content Include="images\BotonPrendas.png" />
+    <Content Include="images\BotonTallas.png" />
+    <Content Include="images\BotonTotalVentas.png" />
+    <Content Include="images\BotonVentas.png" />
+    <Content Include="images\camisa.jpg" />
+    <Content Include="images\corbata.jpg" />
+    <Content Include="images\corbata.png" />
+    <Content Include="images\corbata1.jpg" />
+    <Content Include="images\esmoquin.jpg" />
+    <Content Include="images\facebook.jpg" />
+    <Content Include="images\instagram.jpg" />
+    <Content Include="images\logoArbiter.png" />
+    <Content Include="images\negro.jpg" />
+    <Content Include="images\pantalon.jpg" />
+    <Content Include="images\tienda.jpg" />
+    <Content Include="default.css" />
+    <Content Include="fonts\fonts.css" />
+    <Content Include="images\img01.jpg" />
+    <Content Include="images\img02.jpg" />
+    <Content Include="images\img03.jpg" />
+    <Content Include="images\img04.jpg" />
+    <Content Include="images\img05.jpg" />
+    <Content Include="images\img06.jpg" />
+    <Content Include="images\img07.jpg" />
+    <Content Include="images\logoArbiter.jpg" />
+    <Content Include="images\traje.jpg" />
+    <Content Include="images\twitter.jpg" />
+    <Content Include="InicioAdmin.aspx" />
+    <Content Include="license.txt" />
+    <Content Include="Login.aspx" />
+    <Content Include="Nosotros.aspx" />
+    <Content Include="PaginaPrincipal.aspx" />
+    <Content Include="Pantalon.aspx" />
+    <Content Include="ProductoAdd.aspx" />
+    <Content Include="ProductoDel.aspx" />
+    <Content Include="ProductoMod.aspx" />
+    <Content Include="Properties\Botoncatalogo.png" />
+    <Content Include="Siguenos.aspx" />
+    <Content Include="Traje.aspx" />
+    <Content Include="Ubicacion.aspx" />
+    <Content Include="VentasArt.aspx" />
+    <Content Include="VentasPre.aspx" />
+    <Content Include="VentasTal.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accesorio.aspx.cs">
+      <DependentUpon>Accesorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accesorio.aspx.designer.cs">
+      <DependentUpon>Accesorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Articulo.cs" />
+    <Compile Include="Camisa.aspx.cs">
+      <DependentUpon>Camisa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Camisa.aspx.designer.cs">
+      <DependentUpon>Camisa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo.aspx.cs">
+      <DependentUpon>Catalogo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogo.aspx.designer.cs">
+      <DependentUpon>Catalogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClientesCom.aspx.cs">
+      <DependentUpon>ClientesCom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClientesCom.aspx.designer.cs">
+      <DependentUpon>ClientesCom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClientesFre.aspx.cs">
+      <DependentUpon>ClientesFre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClientesFre.aspx.designer.cs">
+      <DependentUpon>ClientesFre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConexionBDAdmin.cs" />
+    <Compile Include="Contactenos.aspx.cs">
+      <DependentUpon>Contactenos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contactenos.aspx.designer.cs">
+      <DependentUpon>Contactenos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Corbata.aspx.cs">
+      <DependentUpon>Corbata.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Corbata.aspx.designer.cs">
+      <DependentUpon>Corbata.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmpleadoTol.aspx.cs">
+      <DependentUpon>EmpleadoTol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpleadoTol.aspx.designer.cs">
+      <DependentUpon>EmpleadoTol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmpleadoVen.aspx.cs">
+      <DependentUpon>EmpleadoVen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpleadoVen.aspx.designer.cs">
+      <DependentUpon>EmpleadoVen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Esmoquin.aspx.cs">
+      <DependentUpon>Esmoquin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Esmoquin.aspx.designer.cs">
+      <DependentUpon>Esmoquin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ganancias.aspx.cs">
+      <DependentUpon>Ganancias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ganancias.aspx.designer.cs">
+      <DependentUpon>Ganancias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InicioAdmin.aspx.cs">
+      <DependentUpon>InicioAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioAdmin.aspx.designer.cs">
+      <DependentUpon>InicioAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin.Master.cs">
+      <DependentUpon>MasterAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin.Master.designer.cs">
+      <DependentUpon>MasterAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Nosotros.aspx.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nosotros.aspx.designer.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaPrincipal.aspx.cs">
+      <DependentUpon>PaginaPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaPrincipal.aspx.designer.cs">
+      <DependentUpon>PaginaPrincipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalon.aspx.cs">
+      <DependentUpon>Pantalon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantalon.aspx.designer.cs">
+      <DependentUpon>Pantalon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductoAdd.aspx.cs">
+      <DependentUpon>ProductoAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductoAdd.aspx.designer.cs">
+      <DependentUpon>ProductoAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductoDel.aspx.cs">
+      <DependentUpon>ProductoDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductoDel.aspx.designer.cs">
+      <DependentUpon>ProductoDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductoMod.aspx.cs">
+      <DependentUpon>ProductoMod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductoMod.aspx.designer.cs">
+      <DependentUpon>ProductoMod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Siguenos.aspx.cs">
+      <DependentUpon>Siguenos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Siguenos.aspx.designer.cs">
+      <DependentUpon>Siguenos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SingletonEsmoquin.cs" />
+    <Compile Include="Template.Master.cs">
+      <DependentUpon>Template.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Template.Master.designer.cs">
+      <DependentUpon>Template.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Traje.aspx.cs">
+      <DependentUpon>Traje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Traje.aspx.designer.cs">
+      <DependentUpon>Traje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ubicacion.aspx.cs">
+      <DependentUpon>Ubicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ubicacion.aspx.designer.cs">
+      <DependentUpon>Ubicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VentasArt.aspx.cs">
+      <DependentUpon>VentasArt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VentasArt.aspx.designer.cs">
+      <DependentUpon>VentasArt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VentasPre.aspx.cs">
+      <DependentUpon>VentasPre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VentasPre.aspx.designer.cs">
+      <DependentUpon>VentasPre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VentasTal.aspx.cs">
+      <DependentUpon>VentasTal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VentasTal.aspx.designer.cs">
+      <DependentUpon>VentasTal.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterAdmin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Template.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51279</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49349/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
